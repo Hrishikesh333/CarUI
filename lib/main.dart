@@ -12,6 +12,7 @@ import 'package:car_ui/CarUi/CarUi7.dart';
 import 'package:car_ui/CarUi/CarUi8.dart';
 import 'package:car_ui/CarUi/CarUi9.dart';
 import 'package:car_ui/CarUi/Carui14.dart';
+import 'package:car_ui/Myfiles.dart';
 import 'package:car_ui/URLlonger.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -52,7 +53,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home:Carui1(),
+        home:Myname(),
       ),
     );
   }
